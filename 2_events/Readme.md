@@ -15,7 +15,7 @@ Nun wollen wir das Programm auch beenden, wenn wir Escape (ESC) drücken.
 Wir müssen also auf das Event `Drücke ESC` reagieren.
 
 Das können wir machen, indem wir unterhalb von `# TODO` folgendes einfügen:
-```
+``` python
         # TODO: hier auf ESCAPE reagieren
         if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             running = False

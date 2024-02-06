@@ -10,7 +10,7 @@ Du findeest bereits eine Datei `main.py`, welche du erweitern kannst. Öffne die
 
 Kopiere den folgenden Code in den TODO bereich. Dies zeichnet ein Rechteck von der Grösse 100*200 an der Position x=32, y=32.
 
-```
+``` python
     # TODO: zeichne ein Rechteck
     pygame.draw.rect(window, "red", (32, 32, 100, 200))
 ```
@@ -18,16 +18,16 @@ TIPP: Achte auf die Klammern beim Koordinatensystem: (x, y, breite, höhe)
 
 ## Ein Kreis
 Man kann natürlich auch einen Kreis zeichnen:
-```
+```python
 pygame.draw.circle(window, "blue", (200, 200), 100)
 ```
 TIPP: Achte auf die Klammern beim Koordinatensystem: (x, y), radius)
 
 Wie kannst du den Kreis genau in die Mitte des Fensters zeichnen?
 
-## Eine Linke
+## Eine Linie
 Du kannst auch eine Linie zeichnen:
-```
+``` python
 pygame.draw.line(window, "white", (0, 0), (window_width, window_height), 10)
 ```
 TIPP: Achte auf die Klammern beim Koordinatensystem: (x-startpunkt, y-startpunkt), (x-endpunkt, y-endpunkt, liniendicke))

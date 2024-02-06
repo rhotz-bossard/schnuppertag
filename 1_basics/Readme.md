@@ -9,7 +9,7 @@ Erstelle eine neue Text-Datei `main.py` und öffne sie im Visual Studio Code.
 Die Grundstruktur sieht wie folgt aus. Kopiere das Beispiel in die `main.py` und speichere die Datei.
 Lass dich von der kryptischen Schreibweise nicht verunsichern. Es ist nicht so kompliziert wie es aussieht. :)
 
-```
+``` python
 import pygame
 
 pygame.init()
