@@ -1,5 +1,6 @@
 import pygame
 
+
 class Player:
     def __init__(self, game, x, y):
         self.x = x
@@ -9,7 +10,7 @@ class Player:
 
     def update(self):
         self.rect = pygame.draw.rect(self.surface, "red", (self.x, self.y, 64, 64))
-        self.movement(300)
+        self.movement(10)
         self.draw()
 
     def draw(self):
@@ -19,11 +20,11 @@ class Player:
         keys = pygame.key.get_pressed()
 
         if keys[pygame.K_RIGHT]:
-            self.x += speed * self.game.delta_time
+            self.x += speed
         if keys[pygame.K_LEFT]:
-            self.x -= speed * self.game.delta_time
+            self.x -= speed
         if keys[pygame.K_DOWN]:
-            self.y += speed * self.game.delta_time
+            self.y += speed
         if keys[pygame.K_UP]:
-            self.y -= speed * self.game.delta_time
+            self.y -= speed
 

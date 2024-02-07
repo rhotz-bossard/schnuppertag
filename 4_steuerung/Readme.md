@@ -6,10 +6,10 @@ Nun wollen wir unsere Spielfigur umherfahren lassen.
 ## Pfeiltasten
 Mit den Pfeiltasten können wir unser Rechteck umherfahren lassen.
 Lade `main.py` und ergänze beim TODO:
-```
+``` python
     # TODO: Pfeiltaste nach Rechts
     if keys[pygame.K_RIGHT]:
-        player_x += speed * delta_time
+        player_x += speed
 ```
 
 Ergänze den Code mit den übrigen Pfeiltasten (links, hoch, runter). Welche Variable muss jeweils angepasst werden, damit die Spielfigur korrekt reagiert?

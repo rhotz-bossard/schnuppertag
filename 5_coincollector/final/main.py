@@ -2,11 +2,13 @@ import pygame
 import player
 import coin
 
+
 class Game:
     def __init__(self):
         pygame.init()
         self.window_width = 800
         self.window_height = 600
+
         self.score = 0
         self.font = pygame.font.Font("freesansbold.ttf", 16)
         self.window = pygame.display.set_mode((self.window_width, self.window_height))

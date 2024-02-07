@@ -3,13 +3,13 @@
 In dieser einfachen Übungen lernen wir die Programmiersprache Python mit PyGame kennen.
 Mit PyGame lassen sich ganze Spiele programmieren. Dies können wir aus Zeitgründen leider nicht machen, aber wir können ein paar Basics lernen.
 
-## Eine grauer Bildschirm
+## Ein grauer Bildschirm
 Erstelle eine neue Text-Datei `main.py` und öffne sie im Visual Studio Code.
 
 Die Grundstruktur sieht wie folgt aus. Kopiere das Beispiel in die `main.py` und speichere die Datei.
 Lass dich von der kryptischen Schreibweise nicht verunsichern. Es ist nicht so kompliziert wie es aussieht. :)
 
-```
+``` python
 import pygame
 
 pygame.init()
@@ -37,4 +37,4 @@ Starte das Programm über das kleine Play-Symbol oben Recht im Editor.
 
 Versuche nun, die Hintergrundfarbe zu ändern. Finest du heraus, wo du im Programm die Farbe ändern kannst?
 
-TIPP: Hier findest du einen Farbmischer für RGB: https://informatik.schule.de/rgb/RGB_farbmischer.html
+> TIPP: Hier findest du einen Farbmischer für RGB: https://informatik.schule.de/rgb/RGB_farbmischer.html
