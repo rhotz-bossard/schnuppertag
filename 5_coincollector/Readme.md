@@ -22,7 +22,7 @@ Das machen wir über eine Kollisionsabfrage: Sobald die Spielfigur über eine M�
 
 Ergänze hierfür in der Datei `coin.py` beim TODO:
 ``` python
-        # TODO Kollisionsabfrage
+        # TODO: Kollisionsabfrage
         if self.rect.colliderect(self.game.player.rect):
             self.is_destroyed = True
 ```
@@ -30,9 +30,10 @@ Ergänze hierfür in der Datei `coin.py` beim TODO:
 Jetzt wird die Münze entfernt, wenn du darüber fährst.
 
 ## Score anzeigen
-Nun wollen wir anzeigen, wieviele Münzen du bereits eingesammelt hast.
+Nun wollen wir anzeigen, wie viele Münzen du bereits eingesammelt hast.
 Hierbei ergänzen wir in `main.py` die folgende Abfrage mit dem Erhöhen des Scores (`self.score += 1`):
-``` pyhton
+``` python
+                # TODO: Score Erhöhen
                 if coin.is_destroyed:
                     self.coins.remove(coin)
                     self.score += 1
