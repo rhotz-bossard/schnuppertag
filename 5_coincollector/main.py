@@ -13,7 +13,7 @@ class Game:
         self.font = pygame.font.Font("freesansbold.ttf", 16)
         self.window = pygame.display.set_mode((self.window_width, self.window_height))
         self.background_color = (25, 25, 25)
-        pygame.display.set_caption("Coin Colletor")
+        pygame.display.set_caption("Coin Collector")
         self.clock = pygame.time.Clock()
         self.player = player.Player(self, 32, 32)
         
