@@ -16,16 +16,17 @@ while running:
         if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             running = False
 
+    window.fill(background_color)
+
     x = 32
     y = 32
     width = 100
     height = 200
-    
+
     pygame.draw.rect(window, "red", (x, y, width, height))
     pygame.draw.circle(window, "blue", (window_width/2, window_height/2), 100)
     pygame.draw.line(window, "white", (0, 0), (window_width, window_height), 10)
 
-    window.fill(background_color)
     pygame.display.update()
 
 pygame.quit()

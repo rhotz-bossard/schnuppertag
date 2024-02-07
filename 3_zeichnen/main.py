@@ -16,6 +16,8 @@ while running:
         if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             running = False
 
+    window.fill(background_color)
+    
     x = 32
     y = 32
     width = 100
@@ -24,7 +26,6 @@ while running:
     # TODO: zeichne ein Rechteck
 
 
-    window.fill(background_color)
     pygame.display.update()
 
 pygame.quit()
