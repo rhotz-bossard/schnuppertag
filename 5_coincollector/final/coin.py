@@ -1,5 +1,6 @@
 import pygame
 
+
 class Coin:
     def __init__(self, game, x, y):
         self.x = x
