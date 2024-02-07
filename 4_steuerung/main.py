@@ -4,6 +4,7 @@ pygame.init()
 
 window_width = 800
 window_height = 600
+background_color = (25, 25, 25)
 window = pygame.display.set_mode((window_width, window_height))
 player_x = 32
 player_y = 32
@@ -25,7 +26,7 @@ while running:
 
 
 
-    window.fill((25, 25, 25))
+    window.fill(background_color)
     pygame.draw.rect(window, "red", (player_x, player_y, 64, 64))
     pygame.display.update()
 
