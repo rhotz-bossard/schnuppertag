@@ -8,7 +8,7 @@ background_color = (25, 25, 25)
 window = pygame.display.set_mode((window_width, window_height))
 player_x = 32
 player_y = 32
-speed = 256
+speed = 10
 clock = pygame.time.Clock()
 
 running = True
