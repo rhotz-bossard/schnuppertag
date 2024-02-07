@@ -19,11 +19,8 @@ class Game:
         
         # TODO: Münzen hinzufügen
         self.coins = [
-            coin.Coin(self, 200, 250),
-            coin.Coin(self, 450, 100),
-            coin.Coin(self, 500, 350)
-        ]
 
+        ]
 
         self.run()
 
@@ -44,9 +41,8 @@ class Game:
             self.player.update()
             for coin in self.coins:
                 coin.update()
-                if coin.is_destroyed:
-                    self.coins.remove(coin)
-                    self.score += 1
+
+                # TODO: Score Erhöhen
 
             pygame.display.update()
 

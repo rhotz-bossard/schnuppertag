@@ -10,9 +10,7 @@ class Coin:
         
     def update(self):
         self.draw()
-        # TODO Kollisionsabfrage
-        if self.rect.colliderect(self.game.player.rect):
-            self.is_destroyed = True
+        # TODO: Kollisionsabfrage
 
     def draw(self):
         self.rect = pygame.draw.circle(self.game.window, "yellow", (self.x, self.y), 10)
