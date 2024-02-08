@@ -1,10 +1,10 @@
 # PyGame - Programmieren mit Python
 
-In dieser einfachen Übungen lernen wir die Programmiersprache Python mit PyGame kennen.
+In dieser einfachen Übung lernen wir die Programmiersprache Python mit PyGame kennen.
 Mit PyGame lassen sich ganze Spiele programmieren. Dies können wir aus Zeitgründen leider nicht machen, aber wir können ein paar Basics lernen.
 
 ## Ein grauer Bildschirm
-Erstelle eine neue Text-Datei `main.py` und öffne sie im Visual Studio Code.
+Öffne die Datei `main.py`.
 
 Die Grundstruktur sieht wie folgt aus. Kopiere das Beispiel in die `main.py` und speichere die Datei.
 Lass dich von der kryptischen Schreibweise nicht verunsichern. Es ist nicht so kompliziert wie es aussieht. :)

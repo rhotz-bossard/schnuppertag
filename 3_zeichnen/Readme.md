@@ -33,3 +33,16 @@ pygame.draw.line(window, "white", (0, 0), (window_width, window_height), 10)
 > TIPP: Achte auf die Klammern beim Koordinatensystem: (x-startpunkt, y-startpunkt), (x-endpunkt, y-endpunkt, liniendicke))
 
 Spiele nun mit den Zeichnungsfunktionen und erstelle für dich ein geometrisches Muster.
+
+## Etwas Text
+Manchmal möchte man Dinge beschriften. Dies geht natürlich auch:
+```python
+schrift = pygame.font.SysFont('Arial', 35, True, False)
+text = schrift.render("Textinhalt", True, ROT)
+screen.blit(text, [250, 250])
+```
+## Polygone zeichnen
+Man kann auch Polygone (Dreieck) zeichen. Hierbei braucht man drei Koordinaten:
+```python
+pygame.draw.polygon(screen, ROT, [[50,50], [50,200], [200,200]], 2)
+```

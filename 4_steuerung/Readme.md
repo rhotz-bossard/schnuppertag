@@ -14,6 +14,13 @@ Lade `main.py` und ergänze beim TODO:
 
 Ergänze den Code mit den übrigen Pfeiltasten (links, hoch, runter). Welche Variable muss jeweils angepasst werden, damit die Spielfigur korrekt reagiert?
 
+## Zusatzaufgaben
+
+### Geschwindigkeit ändern
 Ändere die Variable `speed` um die Geschwindigkeit des Umhersausens zu erhöhen oder zu verringern.
 
+### Spielfigur begrenzen
+Wie kann verhindert werden, dass die Spielfigur aus dem Fenster herausfährt.
 
+### Zwei Spielfiguren
+Erstelle eine zweite Spielfigur mit einer anderen Farbe und steuere sie mit W, A, S, D.
