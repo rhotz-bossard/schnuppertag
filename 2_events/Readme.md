@@ -3,9 +3,7 @@
 Einfach ein Programm zu starten ist langweilig. Wir wollen nun damit etwas machen.
 Über Events können Tastatureingaben verarbeitet werden.
 
-## Ein grauer Bildschirm
-Erstelle eine neue Text-Datei `main.py` und öffne sie im Visual Studio Code.
-
+## Programm schliessen
 Du findest bereits eine Datei `main.py`, welche du erweitern kannst. Öffne die Datei im Editor.
 
 Das Programm läuft im Dauerloop und wartet auf unsere Eingaben.
